@@ -1,0 +1,5 @@
+rootProject.name = 'java-multi-module'
+
+include 'java-multi-parent1'
+include 'java-multi-child1'
+include 'java-multi-child2'
