@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class ParentController {
     @GetMapping
-    public String getTest() {
+    public String getHomeText() {
         return "Hello world from parent module";
     }
 }
